@@ -1,0 +1,8 @@
+torchvision==0.2.1
+scipy==1.2.1
+matplotlib==3.3.4
+opencv-python==4.5.3.56
+pyyaml==5.4.1
+setproctitle==1.2.3
+cython==0.29.24
+tqdm==4.64.1
