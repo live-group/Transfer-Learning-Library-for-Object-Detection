@@ -57,6 +57,9 @@ conda activate torch0_4
 conda install pytorch=0.4.0 cuda80 -c pytorch
 # install other requirements
 pip install -r requirements.txt
+```
+The default version we provide is compiled with Python 3.6, so if you're using another version of Python, use the following command to compile it yourself:  
+```shell
 # compile the cuda dependencies
 cd lib
 sh make.sh
