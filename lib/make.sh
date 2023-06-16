@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+export PATH=/usr/local/cuda-8.0/bin${PATH:+:${PATH}}
+export CPATH=/usr/local/cuda-8.0/include${CPATH:+:${CPATH}}
+export LD_LIBRARY_PATH=/usr/local/cuda-8.0/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+
 # CUDA_PATH=/usr/local/cuda/
 
 export CUDA_PATH=/usr/local/cuda-9.1/

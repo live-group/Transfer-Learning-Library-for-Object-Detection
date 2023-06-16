@@ -57,6 +57,9 @@ conda activate torch0_4
 conda install pytorch=0.4.0 cuda80 -c pytorch
 # install other requirements
 pip install -r requirements.txt
+# compile the cuda dependencies
+cd lib
+sh make.sh
 ```
 
 #### Train and Test
